@@ -4,7 +4,7 @@
 
 <a href="{{ route('products.index') }}" class="btn btn-outline rounded-pill"> <i class="fa fa-opencart">Products</i></a>
 
-<a href="#" class="btn btn-outline rounded-pill"> <i class="fa fa-desktop">Cashier</i></a>
+<a href="{{ route('orders.index') }}" class="btn btn-outline rounded-pill"> <i class="fa fa-desktop">Cashier</i></a>
 
 <a href="#" class="btn btn-outline rounded-pill"> <i class="fa fa-file">Report</i></a>
 
