@@ -12,5 +12,13 @@ class Product extends Model
     protected $table = 'products';
     protected $fillable = ['product_name','brand','price','quantity','alert_stock','description'];
 
+    public function orderdetail(){
+		return $this->hasMany('App\Models\Order_Detail');
+	}
+
+	public function cart(){
+		return $this->hasMany('App\Models\Cart');
+	}
+
 
 }

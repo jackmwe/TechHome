@@ -16,6 +16,8 @@
 
 <a href="#" class="btn btn-outline rounded-pill"> <i class="fa fa-bar-chart">Incoming</i></a>
 
+<a href="{{ route('products.barcode') }}" class="btn btn-outline rounded-pill"> <i class="fa fa-barcode">Barcodes</i></a>
+
 <style type="text/css">
 	.btn-outline{
 		border-color: #006688;

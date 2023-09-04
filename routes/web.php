@@ -34,6 +34,7 @@ Route::resource('/transactions', 'App\Http\Controllers\TransactionController');
 Route::resource('/users', 'App\Http\Controllers\UserController');
 
 Route::resource('/orders', 'App\Http\Controllers\OrderController');
+Route::get('barcode', 'App\Http\Controllers\ProductController@GetProductBarcodes')->name('products.barcode');
 
 // Route::get('/orders', [App\Http\Controllers\OrderController::class, 'index'])->name('orders'); //orders.index
 // Route::get('/products', [App\Http\Controllers\ProductsController::class, 'index'])->name('products'); //products.index
